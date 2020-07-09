@@ -6,8 +6,8 @@ suma = 0
 print ("Programa que muestra la suma de el numero1 hasta el 2")
 num1 = int(input("Ingrese el primer numero:\n "))
 num2 = int(input("Ingrese el segundo numero:\n "))
-num2 = num2 + 1
-for num in range (num1,num2):
+
+for num in range (num1,num2+1):
     suma += num
 
 print (f'El resultado es:\n {suma}')
